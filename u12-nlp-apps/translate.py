@@ -5,6 +5,9 @@ transfer rules: French adjectives of colour follow the noun, articles
 and adjectives agree with the noun's gender, and le/la become l' before
 a vowel.
 """
+import sys
+if hasattr(sys.stdout, "reconfigure"):      # print logic symbols on Windows
+    sys.stdout.reconfigure(encoding="utf-8")
 DICT = {"the": "le", "a": "un", "black": "noir", "white": "blanc",
         "cat": "chat", "house": "maison", "student": "étudiant",
         "sees": "voit", "eats": "mange", "big": "grand", "fish": "poisson"}

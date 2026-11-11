@@ -5,6 +5,9 @@ meaning of a phrase is built from the meanings of its parts.  Noun
 phrases become functions that take a property and build a formula, which
 is how "every" yields a universal quantifier and "some" an existential.
 """
+import sys
+if hasattr(sys.stdout, "reconfigure"):      # print logic symbols on Windows
+    sys.stdout.reconfigure(encoding="utf-8")
 import itertools
 from cfgparse import parses
 

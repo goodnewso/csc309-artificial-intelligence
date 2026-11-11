@@ -34,7 +34,8 @@ def command(prog):
     return None
 
 
-env = dict(os.environ, MPLBACKEND="Agg", PYTHONHASHSEED="0")
+env = dict(os.environ, MPLBACKEND="Agg", PYTHONHASHSEED="0",
+           PYTHONIOENCODING="utf-8")
 failed, skipped, n = [], [], 0
 for unit in sorted(ROOT.glob("u[0-9][0-9]-*")):
     if args and not any(unit.name.startswith(a) for a in args):
@@ -51,7 +52,8 @@ for unit in sorted(ROOT.glob("u[0-9][0-9]-*")):
         t0 = time.time()
         try:
             r = subprocess.run(cmd, cwd=unit, env=env, capture_output=True,
-                               text=True, timeout=600)
+                               text=True, encoding="utf-8", errors="replace",
+                               timeout=600)
             ok, out = r.returncode == 0, r.stdout + r.stderr
         except subprocess.TimeoutExpired:
             ok, out = False, "timed out"
