@@ -4,6 +4,7 @@ Programs for Unit 10 of the CSC 309 lecture note.
 
 | Program | What it does |
 |---|---|
+| `example_unify.py` | unification, the pattern matching behind resolution (an example in the student note) |
 | `resolution.py` | answering queries by resolution refutation |
 | `students.py` | answering questions about students and courses by resolution |
 

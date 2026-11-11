@@ -5,6 +5,7 @@ Programs for Unit 11 of the CSC 309 lecture note.
 | Program | What it does |
 |---|---|
 | `cfgparse.py` | tokenising, tagging and parsing English with a small context-free grammar |
+| `example_pipeline.py` | the first levels of language analysis (an example in the student note) |
 | `to_logic.py` | translating English sentences into predicate logic |
 
 Run a program from this folder, for example `python cfgparse.py`.

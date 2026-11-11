@@ -5,6 +5,7 @@ Programs for Unit 2 of the CSC 309 lecture note.
 | Program | What it does |
 |---|---|
 | `eliza.py` | a tiny ELIZA-style conversation program (after Weizenbaum, 1966) |
+| `example_keyword_bot.py` | a bookshop assistant that only matches keywords (an example in the student note) |
 | `turing_scorer.py` | scoring the class Turing test practical |
 
 Run a program from this folder, for example `python eliza.py`.

@@ -4,6 +4,7 @@ Programs for Unit 9 of the CSC 309 lecture note.
 
 | Program | What it does |
 |---|---|
+| `example_inheritance.py` | inheritance with exceptions in a tiny network (an example in the student note) |
 | `frames.py` | frames with slots, facets, defaults and demons |
 | `semnet.py` | a semantic network with inheritance and exceptions |
 

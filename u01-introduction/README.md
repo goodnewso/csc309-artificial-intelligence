@@ -5,6 +5,7 @@ Programs for Unit 1 of the CSC 309 lecture note.
 | Program | What it does |
 |---|---|
 | `ai_tools_tour.py` | a short tour of the Python tools used for AI in this course |
+| `example_ripeness.py` | a hand-written rule versus a rule learnt from data (an example in the student note) |
 | `rules_vs_learning.py` | writing the rules by hand versus learning them from data |
 
 Run a program from this folder, for example `python ai_tools_tour.py`.

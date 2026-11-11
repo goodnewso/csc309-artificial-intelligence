@@ -4,6 +4,7 @@ Programs for Unit 5 of the CSC 309 lecture note.
 
 | Program | What it does |
 |---|---|
+| `example_water_jug.py` | formulating the water-jug problem (an example in the student note) |
 | `explosion.py` | how fast a search tree grows (combinatorial explosion) |
 | `missionaries.py` | the missionaries-and-cannibals problem as a state space |
 

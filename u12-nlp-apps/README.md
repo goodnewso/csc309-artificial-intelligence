@@ -5,6 +5,7 @@ Programs for Unit 12 of the CSC 309 lecture note.
 | Program | What it does |
 |---|---|
 | `chatbot.py` | an intent-based chatbot for student services |
+| `example_negation.py` | lexicon-based sentiment with negation and intensifiers (an example in the student note) |
 | `qa.py` | a small question-answering system over course facts |
 | `sentiment.py` | lexicon-based sentiment analysis with negation and intensifiers |
 | `spam.py` | a naive Bayes filter for unwanted text messages |
